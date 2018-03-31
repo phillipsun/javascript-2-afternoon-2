@@ -277,8 +277,8 @@ function both(arr1, arr2) {
   for(let i=0;i<arr1.length;i++){
     // for each value in the first array, compare it to second array
     for(let j=0;j<arr2.length;j++){
-      if(arr1[i]===arr2[j]){
-        bothArr.push(arr[i]);
+      if(arr1[i]===arr2[j]) {
+        bothArr.push(arr1[i]);
       }
     }
   }
